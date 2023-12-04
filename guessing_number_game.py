@@ -10,7 +10,7 @@ def evaluate_guess(secret, guess, attempt):
 	if guess > secret:
 		print("It should be smaller. Try to guess again!")
 	elif guess < secret:
-		print("it should be bigger. Try to guess again!")
+		print("It should be bigger. Try to guess again!")
 	else:
 		print(f"Bingo! {attempt} attempt(s)")
 
