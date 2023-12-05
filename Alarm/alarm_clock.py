@@ -53,5 +53,5 @@ if __name__ == "__main__":
         if alarm_time.lower() == 'exit':
             break
 
-        sound_file_path = "/home/decoder/Desktop/my_g/alarm.mp3"
+        sound_file_path = "/add/your/path/here/my_g/alarm.mp3"
         alarm_clock.set_alarm(alarm_time, sound_file_path)
