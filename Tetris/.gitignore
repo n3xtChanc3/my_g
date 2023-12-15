@@ -1,0 +1,13 @@
+# Virtual Environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# add some .py files to gitignore for now
+#tetris.py
+v2_tetris.py
+vv3_tetris.py
